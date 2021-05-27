@@ -1,3 +1,4 @@
+require('localenv');
 import express = require('express');
 import logger = require('morgan');
 import helmet = require('helmet');
@@ -26,5 +27,5 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 // start the Express server
-const port = app.get('port') || 3001;
-app.listen(port, () => console.log(`Server is listening on port ${port}`));
+const port = app.get('port') || process.env.SERVER_PORT;
+app.listen(port, () => console.log(`Server is listening on port ${process.env.SERVER_PORT}`));
