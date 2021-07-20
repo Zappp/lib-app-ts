@@ -1,0 +1,10 @@
+insert into rack (location_identifier) values ('#b4bd0e');
+insert into rack (location_identifier) values ('#5646e5');
+insert into rack (location_identifier) values ('#96f2e9');
+insert into rack (location_identifier) values ('#4b12b5');
+insert into rack (location_identifier) values ('#894503');
+insert into rack (location_identifier) values ('#88e3cd');
+insert into rack (location_identifier) values ('#bda4e7');
+insert into rack (location_identifier) values ('#5eb39f');
+insert into rack (location_identifier) values ('#a8720f');
+insert into rack (location_identifier) values ('#31d73a');

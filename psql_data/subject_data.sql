@@ -1,0 +1,11 @@
+insert into subject (subject_name) values ('children');
+insert into subject (subject_name) values ('comedy');
+insert into subject (subject_name) values ('action');
+insert into subject (subject_name) values ('drama');
+insert into subject (subject_name) values ('horror');
+insert into subject (subject_name) values ('war');
+insert into subject (subject_name) values ('adventure');
+insert into subject (subject_name) values ('fantasy');
+insert into subject (subject_name) values ('crime');
+insert into subject (subject_name) values ('musical');
+insert into subject (subject_name) values ('thriller');

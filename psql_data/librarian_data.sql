@@ -1,0 +1,2 @@
+INSERT INTO librarian VALUES (10);
+INSERT INTO librarian VALUES (11);

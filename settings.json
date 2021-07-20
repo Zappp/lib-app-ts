@@ -1,0 +1,15 @@
+{
+  "vscode-postgres.prettyPrintJSONfields": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "askForPassword": true,
+      "driver": "PostgreSQL",
+      "name": "localhost",
+      "database": "db",
+      "username": "marcin"
+    }
+  ]
+}

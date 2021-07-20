@@ -1,0 +1,12 @@
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('345951762-X', 1, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('813931175-8', 3, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('474689994-0', 3, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('571609087-7', 4, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('113513723-4', 5, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('144303702-8', 6, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('863877904-6', 7, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('955210501-3', 8, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('653534155-0', 9, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('653534155-0', 3, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('653534155-0', 4, '2000/01/01', '2000/01/01','2000/01/10');
+insert into lending (isbn, account_id, lending_creation_date, lending_due_date, lending_return_date) values ('076795529-3', 10,'2000/01/01', '2000/01/01','2000/01/10');

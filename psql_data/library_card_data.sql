@@ -1,0 +1,12 @@
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (1, 1, 'S49142K', null, true);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (2, 2, 'S42232D', null, true);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (3, 3, 'T22622D', null, true);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (4, 4, 'S42261B', null, true);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (5, 5, 'T23361', null, true);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (6, 6, 'S76891D', null, true);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (7, 7, 'S72352G', null, true);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (8, 8, 'S99232B', null, true);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (9, 9, 'T551X', null, true);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (10, 10, 'S66901', null, true);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (11, 4, 'V8649XD', '2019/04/07', false);
+insert into library_card (library_card_id, account_id, barcode, issued_at_date, is_library_card_active) values (12, 3, 'S52514E', '2019/02/01', false);

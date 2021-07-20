@@ -1,0 +1,12 @@
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('345951762-X', 1, 'waiting', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('813931175-8', 3, 'waiting', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('474689994-0', 3, 'waiting', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('571609087-7', 4, 'waiting', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('113513723-4', 5, 'waiting', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('144303702-8', 6, 'waiting', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('863877904-6', 7, 'pending', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('955210501-3', 8, 'pending', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('653534155-0', 9, 'pending', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('653534155-0', 3, 'completed', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('653534155-0', 4, 'completed', '2000/01/01','2000/01/10');
+insert into reservation_queue (isbn, account_id, reservation_status, reservation_queue_start_date, reservation_queue_end_date) values ('076795529-3', 10, 'canceled', '2000/01/01','2000/01/10');

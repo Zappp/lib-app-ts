@@ -1,5 +1,4 @@
-import { Pool } from 'pg';
-
+import { Pool, QueryResult} from 'pg';
 
 const pool = new Pool({
   host: process.env.DB_HOST,
@@ -9,4 +8,8 @@ const pool = new Pool({
   port: 5432
 });
 
-export default pool;
+export default {
+  async query(text: string): Promise<QueryResult> {
+    return pool.query(text)
+  },
+}
