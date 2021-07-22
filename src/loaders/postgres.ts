@@ -1,15 +1,29 @@
-import { Pool, QueryResult} from 'pg';
+import { Client } from 'pg';
 
-const pool = new Pool({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,
-  port: 5432
+const client = new Client({
+  host: process.env.DB_HOST_LOCAL,
+  user: process.env.DB_USER_LOCAL,
+  password: process.env.DB_PASSWORD_LOCAL,
+  database: process.env.DB_NAME_LOCAL,
+  port: 5432,
 });
 
-export default {
-  async query(text: string): Promise<QueryResult> {
-    return pool.query(text)
-  },
-}
+client
+  .connect()
+  .then(() => console.log('connected'))
+  .catch(err => console.error('connection error', err.stack))
+export default client;
+
+
+// import { Client } from 'pg';
+
+// const client = new Client({
+//   connectionString: process.env.DATABASE_URL,
+//   ssl: {
+//     rejectUnauthorized: false
+//   }
+// });
+
+// client.connect();
+
+// export default client
