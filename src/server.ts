@@ -9,10 +9,14 @@ async function startServer() {
 
   app.get('/', (req, res) => res.send('Server is working!'));
 
-  app.listen(config.port, () => console.log(`Server is ready on port ${config.port}!`));
+  app.listen(config.server.port, () => console.log(`Server is ready on port ${config.server.port}!`));
   
-  const data = await client.query('select * from account where account_id=1');
-  console.log(JSON.stringify(data.rows));
+  client.query('select * from account where account_id=1', (err, res) => {
+    if(err) throw(err);
+    for(const row of res.rows) {
+      console.log(JSON.stringify(row));
+    }
+  });
 }
 
 startServer();
