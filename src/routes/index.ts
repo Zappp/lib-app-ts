@@ -1,16 +1,6 @@
-// import express from 'express';
-// import { postSomeData } from '../controllers';
-
-// const router = express.Router();
-
-// router.post('/test', postSomeData);
-
-// export default router;
-
 import express from 'express';
+import { getBookItemInfo } from '../controllers';
 
-import { postBlogpost } from '../controllers';
+export const router = express.Router();
 
-const router = express.Router()
-
-router.post('/blogpost', postBlogpost)
+router.get('/bookItem', getBookItemInfo);
