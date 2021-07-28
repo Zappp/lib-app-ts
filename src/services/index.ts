@@ -1,8 +1,10 @@
-import { getBookItemByISBNDB } from "../db";
+import { QueryResult } from "pg";
+import { getBookByISBNDB } from "../db";
 
-export const getBookItemByISBN =  async (isbn) => {
+export const getBookByISBN =  async (isbn: string): Promise<QueryResult> => {
   try {
-    return await getBookItemByISBNDB(isbn);
+    const dbResponse = await getBookByISBNDB(isbn); 
+    return dbResponse;
   } catch(error) {
     throw new Error(error.message);
   }

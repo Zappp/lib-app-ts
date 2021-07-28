@@ -6,11 +6,11 @@ async function startServer() {
 
   const app = express();
   app.use(express.json());
+  
+  app.use('/api', router);
 
   app.get('/', (req, res) => {
     res.send('Server is working!')});
-
-  app.use('/api', router);
 
   app.listen(config.server.port, () => console.log(`Server is ready on port ${config.server.port}!`));
 

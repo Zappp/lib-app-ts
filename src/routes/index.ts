@@ -1,6 +1,6 @@
 import express from 'express';
-import { getBookItemInfo } from '../controllers';
+import { getBookInfo } from '../controllers';
 
 export const router = express.Router();
 
-router.get('/bookItem', getBookItemInfo);
+router.get('/book', getBookInfo);
