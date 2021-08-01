@@ -14,6 +14,6 @@ async function startServer() {
 
   app.listen(config.server.port, () => console.log(`Server is ready on port ${config.server.port}!`));
 
-}
+};
 
 startServer();

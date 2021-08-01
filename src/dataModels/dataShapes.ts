@@ -3,10 +3,10 @@ export interface Author {
 }
 
 export interface Book {
-  isbn: string,
+  isbn?: string,
   title?: string,
-  numberOfPages?: number,
-  publicationDate?: string,
+  number_of_pages?: string,
+  publication_date?: string,
   subject?: string,
   publisher?: string,
   author?: Author

@@ -1,10 +1,12 @@
 import { QueryResult } from "pg";
+import { selectQueryString } from "../utils";
+import { Book } from "../dataModels/dataShapes";
 import client from "../loaders/postgres";
 
-export const getBookByISBNDB = async(isbn: string): Promise<QueryResult> => {
+export const getBookByISBNDB = async (data: Book): Promise<QueryResult> => {
   try {
-    return await client.query(`SELECT * FROM book WHERE isbn='${isbn}'`);
+    return await client.query(selectQueryString('book', data));
   } catch (error) {
     throw new Error(error.message);
-  }
-}
+  };
+};
