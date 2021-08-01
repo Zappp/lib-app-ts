@@ -3,7 +3,7 @@ import { selectQueryString } from "../utils";
 import { Book } from "../dataModels/dataShapes";
 import client from "../loaders/postgres";
 
-export const getBookByISBNDB = async (data: Book): Promise<QueryResult> => {
+export const getBookByParamsDB = async (data: Book): Promise<QueryResult> => {
   try {
     return await client.query(selectQueryString('book', data));
   } catch (error) {

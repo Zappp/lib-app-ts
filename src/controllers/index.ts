@@ -1,4 +1,4 @@
-import { getBookByISBN } from "../services";
+import { getBookByParams } from "../services";
 import { NextFunction, Request, Response } from "express";
 import { Book } from "../dataModels/dataShapes";
 
@@ -11,7 +11,7 @@ export const getBookInfo = async (req: Request, res: Response, next: NextFunctio
   };
 
   try {
-    const fetchedData = await getBookByISBN(data);
+    const fetchedData = await getBookByParams(data);
     res.send(JSON.stringify(fetchedData.rows)).status(201);
     next();
   } catch (error) {
